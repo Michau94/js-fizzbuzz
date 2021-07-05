@@ -1,0 +1,33 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px; 
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+
+/* MAIN */
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+#count {
+    list-style-type: none;
+    padding: 30px;
+    text-align: center;
+}
+
+#count li {
+    padding: 5px 0;
+    
+}

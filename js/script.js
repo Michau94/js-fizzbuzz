@@ -21,18 +21,20 @@ for (var i = 1; i <= 100; i++) {
     //conditions
 
     if (i % 3 === 0 && i % 5 === 0) {
-        numberPrint += '<li>' + 'FizzBuzz' + '</li>';
         console.log('FizzBuzz');
+        numberPrint += '<li style = color:red;>' + 'FizzBuzz' + '</li>';
+
     } else if (i % 3 === 0) {
         console.log('Fizz');
-        numberPrint += '<li>' + 'Fizz' + '</li>';
-    }
-    else if (i % 5 === 0) {
+        numberPrint += '<li style = color:orange;>' + 'Fizz' + '</li>';
+
+    }else if (i % 5 === 0) {
         console.log('Buzz');
-        numberPrint += '<li>' + 'Buzz' + '</li>';
+        numberPrint += '<li style = color:yellowgreen;>' + 'Buzz' + '</li>';
+
     } else {
-        numberPrint += '<li>' + i + '</li>';
         console.log(i);
+        numberPrint += '<li>' + i + '</li>';
     }
 }
 
